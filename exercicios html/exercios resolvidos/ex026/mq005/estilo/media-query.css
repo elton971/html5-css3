@@ -13,10 +13,16 @@
 
 
 @media screen and (min-width:767px) {
-i#burguer{
+#burguer{
     display: none;
 }
  menu{
     display: block;
+ }
+ menu > ul > li{ 
+    display: inline-block ;
+ }
+ main{
+    width: 767px;
  }
 }
